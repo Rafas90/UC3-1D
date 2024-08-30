@@ -5,6 +5,12 @@ Boas vindas! Este é seu caderno virtual. Aqui você deverá guardar todos os co
 ## Conteúdo Técnico
 Escreva aqui os conteúdos aprendidos.
 
+- String
+conceito de string
+Exemplos:
+"== é um tipo de segurança que deixa se tiver carterinha"
+"== esse tipo deixa se tiver a carterinha e as condiçoes na carterinha"
+"case funciona para definir uma opição como vartiação de fala"
 
 
 ## Atividades desenvolvidas
