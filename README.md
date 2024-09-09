@@ -51,15 +51,15 @@ console.log(Amor)
 console.log(string)
 ```
 ```
-const produto = prompt("Seja bem vindo(a) a nosa loja de mascaras ta enteressado nessas?")
+const prompt = require("prompt-sync")();
 
-switch(produto) { 
-  case "Mascara do Heroi": 
-  case "Majora Masck" : 
-console.log ("A mascara do heroi e a majora masck custa R$100.000")
-Break;
-  case "Mascara do dicipolo" :
-  case "Mascara das fadas" :
-console.log("A Mascara do dicipolo e a mascara das fadas custam R$ 50.000")
+const volts = prompt ("Quantos volts você acha que a maquina de lavar aguenta? ")
+
+if(< 220 && volts >=140){
+    console.log("Exatamente essa a resposta")
+} else if(>= 220){
+    console.log("Bem passou perto mas exagerou na quantidade e assim acaba queimando")
+} else if(<= 140){
+    console.log("Isso é pouco assim não gera energia o suficiente para funcionar")
 }
 ```
